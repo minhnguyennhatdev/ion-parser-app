@@ -48,6 +48,7 @@ export const Dashboard = () => {
       {data ?
         <div className="w-full mt-8 flex flex-col gap-4">
           <Metadata />
+          <Topics />
         </div>
         :
         null
