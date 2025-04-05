@@ -49,6 +49,8 @@ export const Dashboard = () => {
         <div className="w-full mt-8 flex flex-col gap-4">
           <Metadata />
           <Topics />
+          <LogConsole />
+          <CameraView />
         </div>
         :
         null
