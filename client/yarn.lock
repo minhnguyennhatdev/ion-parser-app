@@ -2079,11 +2079,6 @@ internal-slot@^1.1.0:
     hasown "^2.0.2"
     side-channel "^1.1.0"
 
-ion-js@^5.2.1:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/ion-js/-/ion-js-5.2.1.tgz#e474d9a989a3246821ef69b2f7fc647dc75f8269"
-  integrity sha512-RCnzPOQYTVNaICAw41HXBY6T2sv8EGpBfAb3eE0NJf/UY8xTlyWQ4NNlkVeBTezrXYWvEeXku9aHl8+mXjeQEA==
-
 is-array-buffer@^3.0.4, is-array-buffer@^3.0.5:
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/is-array-buffer/-/is-array-buffer-3.0.5.tgz#65742e1e687bd2cc666253068fd8707fe4d44280"

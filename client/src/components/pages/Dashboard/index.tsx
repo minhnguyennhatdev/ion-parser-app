@@ -10,7 +10,7 @@ import { CameraView } from "./CameraView";
 import { LogConsole } from "./LogConsole";
 import { parseIonFile } from "@/services/ion-parser";
 
-export const Dashboard = () => {
+const Dashboard = () => {
   const dispatch = useDispatch();
   const data = useSelector((state: RootState) => state.data.robot);
 
@@ -59,3 +59,5 @@ export const Dashboard = () => {
     </Layout>
   )
 }
+
+export default Dashboard;

@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+    server:
+        build:
+            context: ./server
+            dockerfile: Dockerfile
+        container_name: server
+        ports:
+            - "3000:3000" # not exposed to host, but available within network
+        networks:
+            - app-network
+
+    client:
+        build:
+            context: ./client
+            dockerfile: Dockerfile
+        container_name: client
+        ports:
+            - "3001:3001" # exposed to host machine
+        networks:
+            - app-network
+        environment:
+            - NEXT_PUBLIC_SERVER_URL=http://localhost:3000 # or however your client accesses the server
+            - PORT=3001 # port for the client
+
+networks:
+    app-network:
+        driver: bridge

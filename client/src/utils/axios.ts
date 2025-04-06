@@ -7,6 +7,8 @@ export const axios = Axios.create({
   validateStatus: () => true,
 });
 
+console.log(process.env.NEXT_PUBLIC_SERVER_URL)
+
 type Response<T> = {
   data: T;
   statusCode: number;
