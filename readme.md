@@ -2,6 +2,8 @@
 
 ## Test Online
 
+> _Note: App running on server& client architecture, so large ion file may take time to send via network_
+
 <https://itv-test.minhnguyen.io.vn>
 
 ## Running Locally
